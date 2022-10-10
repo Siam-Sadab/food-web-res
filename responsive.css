@@ -1,0 +1,723 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 1200px){
+
+    .heading{
+        color:#e58f00;
+        font-size: 40px;
+        line-height: 50px;
+
+        
+    }
+    .para{
+       
+        font-size: 18px;
+        
+    }
+
+    .btn{
+        font-size: 20px;
+        padding:  10px 20px ;
+       }
+
+
+       .headingg{
+        color:#ffffff;
+        font-size: 40px;     
+       }
+       .parag{
+        font-size: 20px;
+       }
+
+       /* <<<<<food quality>>>>>>>>>>>> */
+       .leftt h1{
+   
+        color:#ffffff;
+        font-size: 40px;
+        font-family: 'Secular One', sans-serif;
+       
+        line-height: 80px;
+       
+       
+}
+
+
+.leftt{
+    
+   margin-left: 100px;
+   
+}
+
+.leftt p{
+    color: aliceblue;
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+   
+    word-spacing: 2.5px;
+    line-height: 30px;
+   
+}
+
+/* <<<<<<<<<<<<<food gallery>>>>>>>>>>>> */
+.food-gallery h1{
+    
+    font-size: 40px;
+   
+}
+
+/* <<<<<<<<<<enjoy our food >>>>>>>>>>>>>>>>> */
+
+.mid-content{
+    width: 50%;
+    margin: auto auto;
+    text-align: center;
+    background-color: #1d1d2365;
+    padding:  100px 50px;
+    border: 8px solid orange;
+}
+
+.mid-content h1{
+
+    color:#ffffff;
+        font-size: 40px;
+      
+}
+
+.mid-content p{
+    color: aliceblue;
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+ 
+}
+
+/* <<<<<<<<<<<<<<Menu start>>>>>>>>>>>>>>> */
+.menu h1{
+    color:#ffffff;
+        font-size: 40px;
+        font-family: 'Secular One', sans-serif;
+        text-align: center;
+        line-height: 80px;
+        padding-bottom: 100px;
+
+}
+
+.con-div h2{
+    display: inline-block;
+    width: 100%;
+    color: #ff9100;
+    font-size: 20px;
+    font-family: 'Secular One', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.con-div p{
+    color: #ffffff;
+    padding-bottom:25px ;
+    font-family: 'Secular One', sans-serif;
+    font-size: 15px;
+}
+
+/* <<<<<<<<<<< BEST MEAL >>>>>>>>>>>>>>>> */
+.container-4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+    height: 
+    400px;
+    background-color: #e58f00;
+}
+
+.coontent h1{
+    color:#ffffff;
+        font-size: 40px;
+        font-family: 'Secular One', sans-serif;
+       
+        line-height: 80px;
+       
+}
+
+.coontent p{
+
+
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+    color: white;
+    width: 70%;
+}
+    
+    }
+
+@media only screen and (max-width: 992px) {
+    
+    
+    /* <<<<<<<<<banner area>>>>>>>>>>> */
+
+    .banner-area{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nav-area{
+        text-align: center;
+        justify-content: center;
+        padding: 30px 20px;
+    }
+    .content-area{
+        text-align: center;
+    }
+
+    .para{
+        
+        padding-right: 0px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+       
+        
+    }
+    .heading{
+       padding-top: 80px;
+        font-size: 40px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+       
+    }
+
+    .btn{
+        font-size: 20px;
+        padding:  10px 20px ;
+        margin-top: 30px;
+       
+    }
+    /* <<<<<< about uss>>>>>>>>>>>> */
+
+    .headingg{
+        color:#ffffff;
+        font-size: 40px;
+        font-family: 'Secular One', sans-serif;
+        padding-right: 0px;
+        line-height: 40px;
+        padding-bottom: 40px;
+       }
+       .parag{
+
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        color: white;
+    
+  }
+
+  /* <<<<<<<<<<<<goood quality>>>>>>>>>>>>>> */
+
+  .leftt{
+    flex-basis: 40%;
+    margin-bottom:90px;
+  }
+  .leftt h1{
+   
+    color:#ffffff;
+    font-size: 40px;
+    font-family: 'Secular One', sans-serif;
+   
+    line-height: 40px;
+    padding-bottom: 20px;
+   
+}
+
+.leftt  p{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.mid-content{
+    width: 50%;
+    margin: auto auto;
+    text-align: center;
+    background-color: #1d1d2365;
+    padding:  40px 30px;
+    border: 8px solid orange;
+}
+
+/* <<<<<<<<<<< BEST MEAL >>>>>>>>>>>>>>>> */
+.container-4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+    height: 
+    300px;
+    background-color: #e58f00;
+}
+
+/* <<<<<<<<<<<<BEST MEAL>>>>>>>>>>>>> */
+
+.coontent p{
+
+
+    font-family: 'Secular One', sans-serif;
+    font-size: 15px;
+    color: white;
+    width: 70%;
+}
+
+
+
+}
+
+  @media only screen and (max-width: 768px)
+  {
+
+
+    .left-nav{
+        
+        display: none;
+    }
+    .right-nav{
+        display: none;
+    }
+    .nav-area{
+        text-align: center;
+        justify-content: center;
+        padding: 30px 0px;
+    }
+
+
+    .heading{
+        padding-top: 80px;
+         font-size: 40px;
+         padding-right: 0px;
+         padding-bottom: 0px;
+        
+     }
+     .btn{
+        font-size: 20px;
+        padding:  10px 20px ;
+       }
+
+
+       /* <<<<<<<<<<<qualitry??????????????? */
+
+       .leftt{
+        flex-basis: 40%;
+        margin-left: 30px;
+        margin-bottom: 60px;
+      }
+
+      /* <<<<<<<<<<<<< food gallery >>>>>>>>>>>>>>>>>>> */
+
+      .food-gallery h1{
+        
+        padding-bottom: 100px;
+    }
+     
+
+    /* <<<<<<<<enjoy our food>>>>>>>>>>>>>> */
+
+    .mid-content{
+        width: 60%;
+        margin: auto auto;
+        text-align: center;
+        background-color: #1d1d2365;
+        padding:  40px 40px;
+        border: 8px solid orange;
+  }
+
+  .mid-content p{
+    color: aliceblue;
+    font-family: 'Secular One', sans-serif;
+    font-size: 15px;
+   
+    word-spacing: 2.5px;
+    line-height: 30px;
+}
+
+/* <<<<<<<<<<<<<menu start >>>>>>>>>>>>>>>>>>> */
+
+.mid-content p{
+    color: aliceblue;
+    font-family: 'Secular One', sans-serif;
+    font-size: 15px;
+   
+    word-spacing: 2.5px;
+    line-height: 30px;
+
+  }
+
+  /* <<<<<<<<<<< BEST MEAL >>>>>>>>>>>>>>>> */
+.container-4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+    height: 
+    230px;
+    background-color: #e58f00;
+}
+
+
+}
+
+  @media only screen and (max-width: 600px) {
+
+    .heading{
+        padding-top: 80px;
+         font-size: 40px;
+         padding-right: 0px;
+         padding-bottom: 0px;
+         line-height: 50px;
+        
+     }
+
+     .para{
+      
+        font-size: 15px;
+       
+    }
+
+    .btn{
+        font-size: 20px;
+        padding:  10px 20px ;
+        background-color: #e58f00;
+        border: none;
+        border-radius:5px;
+        -webkit-border-radius:5px;
+        -moz-border-radius:5px;
+        -ms-border-radius:5px;
+        -o-border-radius:5px;
+    }
+    /* <<<<<<<<about uss>>>>>>>>>>>>>>> */
+
+    #aboutus{
+        padding: 115px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content:center ;
+        align-items: center;
+        background-color: #1d1d23;
+    }
+    .leftside{
+        flex-basis: 40%;
+        text-align: center;
+        padding: 40px;
+
+
+  }
+  .righttside{
+   
+      padding: 0px 50px;
+      text-align: center;
+      
+  
+     }
+
+     /* <<<<<<<<<<<<<<quality>>>>>>>>>>>>>>>>>> */
+
+     .leftt {
+        flex-basis: 40%;
+        margin-left: 30px;
+        margin-bottom: -60px;
+      }
+     .leftt h1{
+        font-size: 30px;
+        color: #ffffff;
+     }
+     .left img{
+        margin-bottom:-0px;
+     }
+
+
+     /* <<<<<<<enjoy foood>>>>>>>>>>>>> */
+
+
+     .mid-content{
+        width: 70%;
+        margin: auto auto;
+        text-align: center;
+        background-color: #1d1d2365;
+        padding:  20px 10px;
+        border: 6px solid orange;
+    }
+    .mid-content p{
+        color: aliceblue;
+        font-family: 'Secular One', sans-serif;
+        font-size: 15px;
+       
+        word-spacing: 2.5px;
+        line-height: 30px;
+    }
+
+
+    /* <<<<<<<<<<<<<<<<<<MENU>>>>>>>>>>>>> */
+    .container-3{
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .cmndiv{
+        text-align: center;
+
+    }
+    .con-div{
+        width: 60%;
+        margin: auto;
+        padding-bottom: 70PX;
+    }
+    .imag-div{
+        padding: 60PX;
+    }
+
+
+    /* >>>>>>>>>>>>>>>> BEST MEAL<<<<<<<<<<<<<<<<<< */
+    .coontent h1{
+        color:#ffffff;
+            font-size: 35px;
+            font-family: 'Secular One', sans-serif;
+           
+            line-height: 40px;
+           
+    }
+    
+    .coontent p{
+    
+    
+        font-family: 'Secular One', sans-serif;
+        font-size: 14px;
+        color: white;
+        width: 70%;
+    }
+
+    /* <<<<<<<<<<<<<<<<<<mENU >>>>>>>>>>>>>>>>>> */
+
+    .menu-f ul{
+        display: flex;
+        ;
+    }
+    .menu-f ul li a{
+
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 15px;
+        font-family: 'Secular One', sans-serif;
+        margin-right: 20px;
+        padding: 20px 0px;
+    }
+    .menu-f ul li{
+        padding: 20px 0px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 480px) {
+    
+
+    .heading{
+        color:#e58f00;
+        font-size: 30px;
+        font-family: 'Secular One', sans-serif;
+        line-height: 35px;
+        text-transform: uppercase;
+        
+    }
+    .para{
+        color: aliceblue;
+        font-family: 'Secular One', sans-serif;
+        
+        word-spacing: 2.5px;
+        line-height: 25px;
+        padding-bottom: 20px;
+    }
+
+    .btn{
+        font-size: 14px;
+        color: #000000;
+        padding:  10px 20px ;
+        background-color: #e58f00;
+        border: none;
+        font-weight: bolder;
+        text-transform: uppercase;
+        border-radius:5px;
+        -webkit-border-radius:5px;
+        -moz-border-radius:5px;
+        -ms-border-radius:5px;
+        -o-border-radius:5px;
+    }
+
+    /* <<<<<<<<<<<<<<<about usss>>>>>>>>>>>>>>> */
+    .parag{
+
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        color: white;
+       
+       }
+
+         /* <<<<<<<<<<<<<<< food qualiuty>>>>>>>>>> */
+         .leftt h1{
+   
+            color:#ffffff;
+            font-size: 20px;
+            font-family: 'Secular One', sans-serif;
+           
+            line-height: 30px;
+           
+    }
+    .leftt{
+        flex-basis: 50%;
+       
+    }
+
+    .leftt p{
+        color: aliceblue;
+        font-family: 'Secular One', sans-serif;
+        font-size: 14px;
+       
+        word-spacing: 2.5px;
+        line-height: 18px;
+       
+    }
+/* <<<<<<<<<<<<<<<<<<<food gallaryyyyyyyyyyy>>>>>>>>> */
+
+.food-gallery h1{
+    color:#ffffff;
+    font-size: 30px;
+    font-family: 'Secular One', sans-serif;
+    text-align: center;
+    line-height: 70px;
+    padding-bottom: 90px;
+}
+
+/* <<<<<<<<<<<< enjoy our food>>>>>>>>>>> */
+
+.enjoy-food{
+    height: 600px;
+    width: 100%;
+    background: url(images/ki.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+}
+.mid-content{
+    width: 80%;
+    margin: auto auto;
+    text-align: center;
+    background-color: #1d1d2365;
+    padding:  20px 10px;
+    border: 3px solid orange;
+}
+
+.mid-content h1{
+
+    color:#ffffff;
+        font-size: 25px;
+        font-family: 'Secular One', sans-serif;
+       
+        line-height: 80px;
+        padding-bottom: 10px;
+        
+}
+
+.mid-content p{
+    color: aliceblue;
+    font-family: 'Secular One', sans-serif;
+    font-size: 14px;
+   padding: 10px 20px;
+    word-spacing: 2.5px;
+    line-height: 20px;
+}
+
+/* <<<<<<<<<<<<<<<<<menu start >>>>>>>>>>>>> */
+
+.menu h1{
+    color:#ffffff;
+        font-size: 40px;
+        font-family: 'Secular One', sans-serif;
+        text-align: center;
+        line-height: 40px;
+        padding-bottom: 50px;
+        text-transform: uppercase;
+
+}
+
+.con-div h3{
+    color: #ff9100;
+    padding-bottom: 40px;
+  }
+  .con-div {
+
+    padding: 0px;
+    width: 100%;
+    margin-top: -30px;
+  
+  }
+
+  .con-div p{
+    color: #ffffff;
+    padding-bottom:25px ;
+    font-family: 'Secular One', sans-serif;
+    font-size: 14px;
+    padding: 0px 20px;
+    padding-bottom: 20px;
+}
+
+/* <!-- <<<<<<<<<<<<<<best meal >>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.best-Meal{
+    background-color: #1d1d23;
+    padding: 50px 0px;
+    padding-bottom: 140px;
+   
+
+
+}
+
+
+.container-4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+    height: 
+    250px;
+    background-color: #e58f00;
+}
+
+
+.coontent h1{
+    color:#ffffff;
+        font-size: 30px;
+        font-family: 'Secular One', sans-serif;
+       padding-bottom: 15px;
+        line-height: 35px;
+       
+       
+}
+.coontent p{
+
+
+    font-family: 'Secular One', sans-serif;
+    font-size: 12px;
+    
+}
+
+.logo-f{
+    width: 60%;
+    margin: auto;
+}
+.logo-f img{
+    width: 100%;
+}
+
+.menu-f ul li a {
+    font-size: 14px;
+
+    margin-right: 2px;
+    
+}
+
+
+}
+

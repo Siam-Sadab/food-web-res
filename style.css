@@ -1,0 +1,461 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+  padding: 0px 0px; 
+  background:url(images/ban.jpg);
+  background-size: cover;
+  background-position:bottom center;
+  position: relative;
+}
+.overlay{
+    background-color: rgba(48, 45, 45, 0.952);
+    position: ;
+}
+.nav-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 30px 60px;
+}
+
+.left-nav{
+    flex-basis: 33%;
+    
+}
+.logo{
+    flex-basis: 34%;
+   
+    text-align: center;
+}
+.right-nav{
+
+    flex-basis: 33%;
+   
+}
+
+.left-nav ul{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.left-nav ul li{
+
+    list-style-type: none;
+
+}
+
+.left-nav ul li a{
+    text-decoration:none;
+    text-transform: uppercase;
+    margin-right: 30px;
+    color: white;
+    font-family: 'Secular One', sans-serif;
+}
+
+.right-nav ul{
+
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+.right-nav ul a{
+     text-decoration: none;
+     text-transform: uppercase;
+     margin-left: 30px;
+     color: white;
+    font-family: 'Secular One', sans-serif;
+
+}
+
+.banner-area{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: rgba(0, 0, 0, 0.089);
+     padding: 140px 60px;
+}
+
+.banner{
+    flex-basis: 40%;
+}
+
+.banner img{
+    height: 100%;
+    width: 100%;
+}
+
+.content-area{
+    flex-basis: 50%;
+}
+.heading{
+    color:#e58f00;
+    font-size: 70px;
+    font-family: 'Secular One', sans-serif;
+    padding-right: 150px;
+    line-height: 80px;
+    padding-bottom: 40px;
+}
+.para{
+    color: aliceblue;
+    font-family: 'Secular One', sans-serif;
+    font-size: 25px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+    word-spacing: 2.5px;
+    line-height: 30px;
+}
+.btn{
+    font-size: 24px;
+    padding:  20px 40px ;
+    background-color: #e58f00;
+    border: none;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+
+/* <<<<<<<<<<<<<<<about usss>>>>>>>>>>>>>>> */
+   #aboutus{
+       padding: 115px 0px;
+       display: flex;
+       justify-content:center ;
+       align-items: center;
+       background-color: #1d1d23;
+   }
+   .leftside{
+    flex-basis: 50%;
+    text-align: center;
+   }
+   .leftside img{
+    height: 100%;
+    width: 100%;
+   }
+   .righttside{
+  background-color: #e58d0000;
+    flex-basis: 40%;
+    padding-left: 50px;
+    padding-right: 0px;
+
+   }
+   .headingg{
+    color:#ffffff;
+    font-size: 70px;
+    font-family: 'Secular One', sans-serif;
+    padding-right: 150px;
+    line-height: 80px;
+    padding-bottom: 40px;
+   }
+   .parag{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: white;
+   
+   }
+
+   /* <<<<<<<<<<<<<<< food qualiuty>>>>>>>>>> */
+
+   #FOOD-QUALITY{
+    position: relative;
+    background-color: #1d1d23;
+    width: 100%;
+    height: 100%;
+    
+   }
+   .backgronf img{
+   position: relative;
+    width: 100%;
+    height: 100%;
+   }
+ .backgronf{
+    position: relative;
+
+   }
+.container{
+    width: 100%;
+    bottom:0px;
+    position:absolute;
+    display: flex;
+    background-color: rgba(250, 235, 215, 0);
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.left{
+    height: 00%;
+    width: 100%;
+    flex-basis: 30%;
+}
+.left img{
+    height: 100%;
+    width: 100%;
+}
+.right{
+    flex-basis: 60%;
+}
+.left img{
+    margin-bottom: 80px;
+}
+.COTAINER-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.leftt h1{
+   
+        color:#ffffff;
+        font-size: 70px;
+        font-family: 'Secular One', sans-serif;
+       
+        line-height: 80px;
+       
+}
+
+.leftt p{
+    color: aliceblue;
+    font-family: 'Secular One', sans-serif;
+    font-size: 25px;
+   
+    word-spacing: 2.5px;
+    line-height: 30px;
+   
+}
+
+.COTAINER-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgba(160, 16, 0, 0) ;
+}
+.leftt{
+    flex-basis: 35%;
+   margin: auto;
+   margin-left: 200px;
+   background-color: #79622200;
+}
+.rightt{
+    flex-basis: 25%;
+}
+/* <<<<<<<<<<<<<<<<<<<food gallaryyyyyyyyyyy>>>>>>>>> */
+.food-gallery{
+    padding: 150px 0px;
+    background-color: #1d1d23;
+}
+.food-gallery h1{
+    color:#ffffff;
+    font-size: 70px;
+    font-family: 'Secular One', sans-serif;
+    text-align: center;
+    line-height: 80px;
+    padding-bottom: 150px;
+}
+
+.up-div{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 4%;
+}
+.down-div{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.cdiv{
+    height: 100%;
+    width: 100%;
+    flex-basis: 30%;
+}
+.cdiv img{
+    height: 100%;
+    width: 100%;
+}
+/* <<<<<<<<<<<< enjoy our food>>>>>>>>>>> */
+.enjoy-food{
+    height: 950px;
+    width: 100%;
+    background: url(images/ki.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+}
+
+.background{
+  
+}
+
+.mid-content{
+    width: 50%;
+    margin: auto auto;
+    text-align: center;
+    background-color: #1d1d2365;
+    padding:  200px 100px;
+    border: 8px solid orange;
+}
+.mid-content h1{
+
+    color:#ffffff;
+        font-size: 70px;
+        font-family: 'Secular One', sans-serif;
+       
+        line-height: 80px;
+}
+.mid-content p{
+    color: aliceblue;
+    font-family: 'Secular One', sans-serif;
+    font-size: 25px;
+   
+    word-spacing: 2.5px;
+    line-height: 30px;
+}
+
+/* <<<<<<<<<<<<<<<<<menu start >>>>>>>>>>>>> */
+
+
+.menu{
+
+    padding: 100px 0px;
+    background-color: #1d1d23;
+}
+
+.menu h1{
+    color:#ffffff;
+        font-size: 70px;
+        font-family: 'Secular One', sans-serif;
+        text-align: center;
+        line-height: 80px;
+        padding-bottom: 100px;
+
+}
+.container-3{
+
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.imag-div img{
+    height: 100%;
+    width: 100%;
+}
+.cmndiv{
+    flex-basis: 28%;
+}
+.con-div h2{
+    display: inline-block;
+    width: 100%;
+    color: #ff9100;
+    font-size: 27px;
+    font-family: 'Secular One', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.con-div p{
+    color: #ffffff;
+    padding-bottom:25px ;
+    font-family: 'Secular One', sans-serif;
+}
+.con-div h3{
+    color: #ff9100;
+}
+
+/* <!-- <<<<<<<<<<<<<<best meal >>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.best-Meal{
+    background-color: #1d1d23;
+    padding: 200px 0px;
+   
+}
+
+
+.container-4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+    height: 
+    500px;
+    background-color: #e58f00;
+}
+
+.round-img{
+ flex-basis: 40%;
+ background-color: rgba(240, 248, 255, 0);
+
+}
+.round-img img {
+   
+   height: 100%;
+   width: 100%;
+}
+.coontent {
+    background-color: #ffffff00;
+    flex-basis: 50%;
+    text-align: left;
+}
+.coontent h1{
+    color:#ffffff;
+        font-size: 70px;
+        font-family: 'Secular One', sans-serif;
+       
+        line-height: 80px;
+       
+}
+
+.coontent p{
+
+
+    font-family: 'Secular One', sans-serif;
+    font-size: 25px;
+    color: white;
+    width: 70%;
+}
+.FOOTER{
+    padding: 150px 0px;
+    text-align: center;
+    background-color: #35353b;
+}
+.menu-f ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.menu-f ul li a{
+
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Secular One', sans-serif;
+    margin-right: 50px;
+    padding: 30px 0px;
+}
+
+.menu-f ul li{
+    padding: 30px 0px;
+}
+.fa-brands{
+  font-size: 20px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  margin-left: 15px;
+}
